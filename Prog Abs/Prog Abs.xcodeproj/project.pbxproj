@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C0295BD1EDC83AD000FE928 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */; };
 		6C0295C41EDC866C000FE928 /* StructureExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295C31EDC866C000FE928 /* StructureExample.cpp */; };
+		6C0295C61EDC89D5000FE928 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,7 +43,8 @@
 		6C0295B01EDC83AD000FE928 = {
 			isa = PBXGroup;
 			children = (
-				6C0295BB1EDC83AD000FE928 /* Prog Abs */,
+				6C0295C51EDC89A6000FE928 /* StructureExample */,
+				6C0295BB1EDC83AD000FE928 /* Hello World */,
 				6C0295BA1EDC83AD000FE928 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +57,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C0295BB1EDC83AD000FE928 /* Prog Abs */ = {
+		6C0295BB1EDC83AD000FE928 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
 				6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */,
+			);
+			name = "Hello World";
+			path = "Prog Abs";
+			sourceTree = "<group>";
+		};
+		6C0295C51EDC89A6000FE928 /* StructureExample */ = {
+			isa = PBXGroup;
+			children = (
 				6C0295C31EDC866C000FE928 /* StructureExample.cpp */,
 			);
+			name = StructureExample;
 			path = "Prog Abs";
 			sourceTree = "<group>";
 		};
@@ -123,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0295C41EDC866C000FE928 /* StructureExample.cpp in Sources */,
-				6C0295BD1EDC83AD000FE928 /* HelloWorld.cpp in Sources */,
+				6C0295C61EDC89D5000FE928 /* HelloWorld.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
