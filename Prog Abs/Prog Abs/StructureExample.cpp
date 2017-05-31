@@ -6,6 +6,7 @@
 //  Copyright © 2017 Francisco Utrera. All rights reserved.
 //
 
+
 #include <iostream>
 using namespace std;
 
@@ -15,10 +16,11 @@ int raiseToPower(int n, int k);
 
 /* Main program */
 
+/*
 int main() {
     int limit;
     cout << "This program lists powers of two." << endl;
-    cout << "Enter exponent limit:";
+    cout << "Enter exponent limit: ";
     cin >> limit;
     for (int i = 0; i <= limit; i++) {
         cout << "2 to the " << i << " = "
@@ -26,7 +28,8 @@ int main() {
     }
     return 0;
 }
-
+*/
+ 
 /*
  * Function: raiseToPower
  * Usage: int p = raiseToPower(n, k);
@@ -41,3 +44,4 @@ int raiseToPower(int n, int k) {
     }
     return result;
 }
+

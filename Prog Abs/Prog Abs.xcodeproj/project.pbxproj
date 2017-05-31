@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6C0295C41EDC866C000FE928 /* StructureExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295C31EDC866C000FE928 /* StructureExample.cpp */; };
 		6C0295C61EDC89D5000FE928 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */; };
+		6C0295C91EDC9170000FE928 /* AddThreeNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295C71EDC9170000FE928 /* AddThreeNumbers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		6C0295B91EDC83AD000FE928 /* Prog Abs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prog Abs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 		6C0295C31EDC866C000FE928 /* StructureExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StructureExample.cpp; sourceTree = "<group>"; };
+		6C0295C71EDC9170000FE928 /* AddThreeNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddThreeNumbers.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +45,8 @@
 		6C0295B01EDC83AD000FE928 = {
 			isa = PBXGroup;
 			children = (
-				6C0295C51EDC89A6000FE928 /* StructureExample */,
-				6C0295BB1EDC83AD000FE928 /* Hello World */,
+				6C0295C51EDC89A6000FE928 /* Chapter 2 */,
+				6C0295BB1EDC83AD000FE928 /* Chapter 1 */,
 				6C0295BA1EDC83AD000FE928 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,21 +59,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C0295BB1EDC83AD000FE928 /* Hello World */ = {
+		6C0295BB1EDC83AD000FE928 /* Chapter 1 */ = {
 			isa = PBXGroup;
 			children = (
 				6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */,
+				6C0295C31EDC866C000FE928 /* StructureExample.cpp */,
+				6C0295C71EDC9170000FE928 /* AddThreeNumbers.cpp */,
 			);
-			name = "Hello World";
+			name = "Chapter 1";
 			path = "Prog Abs";
 			sourceTree = "<group>";
 		};
-		6C0295C51EDC89A6000FE928 /* StructureExample */ = {
+		6C0295C51EDC89A6000FE928 /* Chapter 2 */ = {
 			isa = PBXGroup;
 			children = (
-				6C0295C31EDC866C000FE928 /* StructureExample.cpp */,
 			);
-			name = StructureExample;
+			name = "Chapter 2";
 			path = "Prog Abs";
 			sourceTree = "<group>";
 		};
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0295C91EDC9170000FE928 /* AddThreeNumbers.cpp in Sources */,
 				6C0295C41EDC866C000FE928 /* StructureExample.cpp in Sources */,
 				6C0295C61EDC89D5000FE928 /* HelloWorld.cpp in Sources */,
 			);
