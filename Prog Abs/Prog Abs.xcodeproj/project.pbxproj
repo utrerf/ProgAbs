@@ -10,6 +10,7 @@
 		6C0295C41EDC866C000FE928 /* StructureExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295C31EDC866C000FE928 /* StructureExample.cpp */; };
 		6C0295C61EDC89D5000FE928 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */; };
 		6C0295C91EDC9170000FE928 /* AddThreeNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C0295C71EDC9170000FE928 /* AddThreeNumbers.cpp */; };
+		6CD02DC01EE4515300971EE3 /* add a list of integers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CD02DBF1EE4515300971EE3 /* add a list of integers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 		6C0295C31EDC866C000FE928 /* StructureExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StructureExample.cpp; sourceTree = "<group>"; };
 		6C0295C71EDC9170000FE928 /* AddThreeNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddThreeNumbers.cpp; sourceTree = "<group>"; };
+		6CD02DBF1EE4515300971EE3 /* add a list of integers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "add a list of integers.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		6C0295BB1EDC83AD000FE928 /* Chapter 1 */ = {
 			isa = PBXGroup;
 			children = (
+				6CD02DBF1EE4515300971EE3 /* add a list of integers.cpp */,
 				6C0295BC1EDC83AD000FE928 /* HelloWorld.cpp */,
 				6C0295C31EDC866C000FE928 /* StructureExample.cpp */,
 				6C0295C71EDC9170000FE928 /* AddThreeNumbers.cpp */,
@@ -138,6 +141,7 @@
 				6C0295C91EDC9170000FE928 /* AddThreeNumbers.cpp in Sources */,
 				6C0295C41EDC866C000FE928 /* StructureExample.cpp in Sources */,
 				6C0295C61EDC89D5000FE928 /* HelloWorld.cpp in Sources */,
+				6CD02DC01EE4515300971EE3 /* add a list of integers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +268,7 @@
 				6C0295C21EDC83AD000FE928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
