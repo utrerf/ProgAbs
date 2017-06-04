@@ -9,6 +9,8 @@
 #include <iostream>
 using namespace std;
 
+/*
+ 
 const int SENTINEL = 0;
 
 int main () {
@@ -25,3 +27,5 @@ int main () {
     cout << "The total is " << total << endl;
     return 0;
 }
+
+*/
