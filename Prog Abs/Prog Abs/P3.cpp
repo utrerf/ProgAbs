@@ -9,15 +9,15 @@
 #include <iostream>
 using namespace std;
 
-/*
- Testing programs for excercise 3 of the book
+
+// Testing programs for excercise 3 of the book
  
- int main() {
- int sum = 0;
- for (int i = 0; i <= 100; i++) {
- sum += i;
- }
- cout << "The sum of numbers 1-100 is: " << sum << endl;
- return 0;
- }
- */
+int main() {
+int sum = 0;
+for (int i = 0; i <= 100; i++) {
+sum += i;
+}
+cout << "The sum of numbers 1-100 is: " << sum << endl;
+return 0;
+}
+

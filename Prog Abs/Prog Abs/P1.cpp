@@ -9,8 +9,8 @@
 #include <iostream>
 using namespace std;
 
-/*
- Testing programs for excercise 1 of the book
+
+// Testing programs for excercise 1 of the book
  
  
  double farenheit (double celcius);
@@ -52,4 +52,3 @@ using namespace std;
  return 0;
  }
  
- */

@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-/*
+
  
 const int SENTINEL = 0;
 
@@ -28,4 +28,4 @@ int main () {
     return 0;
 }
 
-*/
+
