@@ -4,15 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Prog Abs.xcscheme</key>
+		<key>Chapter 1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<key>Chapter 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>6C0295B81EDC83AD000FE928</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6C5AF37A1EECA7ED00860330</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6C5AF3851EECA8B100860330</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6C5AF3901EECAB6700860330</key>
 		<dict>
 			<key>primary</key>
 			<true/>
