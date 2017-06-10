@@ -11,7 +11,8 @@
 #include <math.h>
 using namespace std;
 
-/*
+
+// Testing programs for excercise 11 of the book
 
 // Prototype Functions
 long double aprox_pi(long double i);
@@ -43,5 +44,3 @@ long double aprox_pi(long double i) {
     cout << "PI approximates to " << approx << " given "<< iter << " iterations." << endl;
     return 0;
 }
-
-*/

@@ -9,8 +9,8 @@
 #include <iostream>
 using namespace std;
 
-/*
- Testing programs for excercise 11 of the book
+
+// Testing programs for excercise 11 of the book
  
  
  // Function prototype
@@ -49,5 +49,5 @@ using namespace std;
  cout << "PI approximates to : " << balance * 4 << " given " << iterations << " iterations." << endl;
  return 0;
  }
- */
+
  

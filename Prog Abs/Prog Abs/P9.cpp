@@ -9,9 +9,9 @@
 #include <iostream>
 using namespace std;
 
-/*
+
  
- Testing programs for excercise 9 of the book
+// Testing programs for excercise 9 of the book
  
  // Function Prototype
  void factor(int n);
@@ -77,5 +77,4 @@ using namespace std;
  }
  }
  
- */
  

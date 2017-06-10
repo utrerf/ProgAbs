@@ -9,9 +9,9 @@
 #include <iostream>
 using namespace std;
 
-/*
+
  
-Testing programs for excercise 10 of the book
+// Testing programs for excercise 10 of the book
 
 // Function Prototype
 int hailstone(int n);
@@ -45,4 +45,3 @@ int hailstone(int n) {
     return 0;
 }
 
-*/
