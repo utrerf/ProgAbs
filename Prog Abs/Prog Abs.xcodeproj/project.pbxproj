@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6C5AF4551EEE039700860330 /* Example_Quadratic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AF4541EEE039700860330 /* Example_Quadratic.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		6C0295B71EDC83AD000FE928 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,8 +26,9 @@
 		6C0295B91EDC83AD000FE928 /* Main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Main; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0295BC1EDC83AD000FE928 /* Example_HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Example_HelloWorld.cpp; path = "../Prog Abs/Example_HelloWorld.cpp"; sourceTree = "<group>"; };
 		6C0295C31EDC866C000FE928 /* Example_StructureExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_StructureExample.cpp; path = "../Prog Abs/Example_StructureExample.cpp"; sourceTree = "<group>"; };
-		6C0295C71EDC9170000FE928 /* ExampleAddThreeNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExampleAddThreeNumbers.cpp; path = "../Prog Abs/ExampleAddThreeNumbers.cpp"; sourceTree = "<group>"; };
-		6C5AF3931EECAB6700860330 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6C0295C71EDC9170000FE928 /* Example_AddThreeNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_AddThreeNumbers.cpp; path = "../Prog Abs/Example_AddThreeNumbers.cpp"; sourceTree = "<group>"; };
+		6C5AF3931EECAB6700860330 /* Example_Combinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Example_Combinations.cpp; sourceTree = "<group>"; };
+		6C5AF4541EEE039700860330 /* Example_Quadratic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example_Quadratic.cpp; sourceTree = "<group>"; };
 		6CD02DBF1EE4515300971EE3 /* Example_AddIntegers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_AddIntegers.cpp; path = "../Prog Abs/Example_AddIntegers.cpp"; sourceTree = "<group>"; };
 		6CD02DC31EE5A31300971EE3 /* P1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P1.cpp; path = "../Prog Abs/P1.cpp"; sourceTree = "<group>"; };
 		6CD02DC51EE5A33C00971EE3 /* P2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P2.cpp; path = "../Prog Abs/P2.cpp"; sourceTree = "<group>"; };
@@ -73,7 +78,7 @@
 				6CD02DBF1EE4515300971EE3 /* Example_AddIntegers.cpp */,
 				6C0295BC1EDC83AD000FE928 /* Example_HelloWorld.cpp */,
 				6C0295C31EDC866C000FE928 /* Example_StructureExample.cpp */,
-				6C0295C71EDC9170000FE928 /* ExampleAddThreeNumbers.cpp */,
+				6C0295C71EDC9170000FE928 /* Example_AddThreeNumbers.cpp */,
 				6CD02DC31EE5A31300971EE3 /* P1.cpp */,
 				6CD02DC51EE5A33C00971EE3 /* P2.cpp */,
 				6CD02DC71EE5A34E00971EE3 /* P3.cpp */,
@@ -93,7 +98,8 @@
 		6C5AF3921EECAB6700860330 /* Chapter 2 */ = {
 			isa = PBXGroup;
 			children = (
-				6C5AF3931EECAB6700860330 /* main.cpp */,
+				6C5AF3931EECAB6700860330 /* Example_Combinations.cpp */,
+				6C5AF4541EEE039700860330 /* Example_Quadratic.cpp */,
 			);
 			path = "Chapter 2";
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5AF4551EEE039700860330 /* Example_Quadratic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
