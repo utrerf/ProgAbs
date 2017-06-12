@@ -21,7 +21,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
-#include "error.hpp"
+#include "Example_error.hpp"
 using namespace std;
 
 /* Function Prototypes */

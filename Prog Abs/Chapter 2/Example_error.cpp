@@ -15,7 +15,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
-#include "error.hpp"
+#include "Example_error.hpp"
 using namespace std;
 
 /*

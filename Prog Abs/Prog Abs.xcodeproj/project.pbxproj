@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		6C5AF45A1EEEE75B00860330 /* Example_Quadratic(lib).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AF4591EEEE75B00860330 /* Example_Quadratic(lib).cpp */; };
-		6C5AF45B1EEEE7E200860330 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C5AF4561EEEDAF200860330 /* error.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		6C0295B71EDC83AD000FE928 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -30,9 +25,11 @@
 		6C0295C71EDC9170000FE928 /* Example_AddThreeNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_AddThreeNumbers.cpp; path = "../Prog Abs/Example_AddThreeNumbers.cpp"; sourceTree = "<group>"; };
 		6C5AF3931EECAB6700860330 /* Example_Combinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Example_Combinations.cpp; sourceTree = "<group>"; };
 		6C5AF4541EEE039700860330 /* Example_Quadratic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example_Quadratic.cpp; sourceTree = "<group>"; };
-		6C5AF4561EEEDAF200860330 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error.cpp; sourceTree = "<group>"; };
-		6C5AF4571EEEDAF200860330 /* error.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = error.hpp; sourceTree = "<group>"; };
+		6C5AF4561EEEDAF200860330 /* Example_error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example_error.cpp; sourceTree = "<group>"; };
+		6C5AF4571EEEDAF200860330 /* Example_error.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Example_error.hpp; sourceTree = "<group>"; };
 		6C5AF4591EEEE75B00860330 /* Example_Quadratic(lib).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Example_Quadratic(lib).cpp"; sourceTree = "<group>"; };
+		6C5AF45D1EEEE89E00860330 /* Example_direction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Example_direction.hpp; sourceTree = "<group>"; };
+		6C5AF45F1EEEE89F00860330 /* Example_direction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example_direction.cpp; sourceTree = "<group>"; };
 		6CD02DBF1EE4515300971EE3 /* Example_AddIntegers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_AddIntegers.cpp; path = "../Prog Abs/Example_AddIntegers.cpp"; sourceTree = "<group>"; };
 		6CD02DC31EE5A31300971EE3 /* P1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P1.cpp; path = "../Prog Abs/P1.cpp"; sourceTree = "<group>"; };
 		6CD02DC51EE5A33C00971EE3 /* P2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P2.cpp; path = "../Prog Abs/P2.cpp"; sourceTree = "<group>"; };
@@ -102,11 +99,13 @@
 		6C5AF3921EECAB6700860330 /* Chapter 2 */ = {
 			isa = PBXGroup;
 			children = (
+				6C5AF45F1EEEE89F00860330 /* Example_direction.cpp */,
+				6C5AF45D1EEEE89E00860330 /* Example_direction.hpp */,
 				6C5AF3931EECAB6700860330 /* Example_Combinations.cpp */,
 				6C5AF4541EEE039700860330 /* Example_Quadratic.cpp */,
 				6C5AF4591EEEE75B00860330 /* Example_Quadratic(lib).cpp */,
-				6C5AF4561EEEDAF200860330 /* error.cpp */,
-				6C5AF4571EEEDAF200860330 /* error.hpp */,
+				6C5AF4561EEEDAF200860330 /* Example_error.cpp */,
+				6C5AF4571EEEDAF200860330 /* Example_error.hpp */,
 			);
 			path = "Chapter 2";
 			sourceTree = "<group>";
@@ -168,8 +167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C5AF45B1EEEE7E200860330 /* error.cpp in Sources */,
-				6C5AF45A1EEEE75B00860330 /* Example_Quadratic(lib).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

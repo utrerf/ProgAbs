@@ -7,14 +7,14 @@
 //
 
 /*
- * File: error.hpp
+ * File: Example_error.hpp
  * -------------
  * This file defines a simple function for reporting errors.
  */
 
 
-#ifndef error_hpp
-#define error_hpp
+#ifndef Example_error_hpp
+#define Example_error_hpp
 
 /*
  * Function: error
