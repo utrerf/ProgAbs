@@ -7,10 +7,10 @@
 //
 
 /*
- * File: Example_Quadratic.cpp
+ * File: Example_Quadratic(lib).cpp
  * ---------------------------
- * This program finds the roots of the quadratic equation
- * 
+ * This program finds the roots of the quadratic equation using the error library
+ *
  *          2
  *       a x   +  b x  +  c  =  0
  *
@@ -21,6 +21,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
+#include "error.hpp"
 using namespace std;
 
 /* Function Prototypes */
@@ -29,7 +30,6 @@ void getCoefficients(double & a, double & b, double & c);
 void solveQuadratic(double a, double b, double c,
                     double & x1, double & x2);
 void printRoots (double x1, double x2);
-void error(string msg);
 
 /* Main program */
 
@@ -71,7 +71,7 @@ void solveQuadratic(double a, double b, double c,
                     double & x1, double & x2) {
     if (a == 0) error("The coefficient must be nonzero");
     double disc = b * b - 4 * a * c;
-    if (disc < 0) error ("This equation has no real roots.");
+    if (disc < 0) error("This equation has no real roots.");
     double sqrtDisc = sqrt(disc);
     x1 = (-b + sqrtDisc) / (2 * a);
     x2 = (-b - sqrtDisc) / (2 * a);
@@ -92,15 +92,4 @@ void printRoots(double x1, double x2) {
     }
 }
 
-/*
- * Function: error
- * Usage: error(msg);
- * ------------------------------
- * Writes the string msg to the cerr stream and then exists the program
- * with a standard status value indicating that a failure has occured.
- */
 
-void error(string msg) {
-    cerr << msg << endl;
-    exit(EXIT_FAILURE);
-}
