@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6CFE31701EF4CD10009A960E /* Example_gmath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE316E1EF4CD10009A960E /* Example_gmath.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		6C0295B71EDC83AD000FE928 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -43,6 +47,8 @@
 		6CD02DD51EE5A39800971EE3 /* P10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P10.cpp; path = "../Prog Abs/P10.cpp"; sourceTree = "<group>"; };
 		6CD02DD71EE5A3A200971EE3 /* P11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P11.cpp; path = "../Prog Abs/P11.cpp"; sourceTree = "<group>"; };
 		6CD02DD91EE5A3AD00971EE3 /* P12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P12.cpp; path = "../Prog Abs/P12.cpp"; sourceTree = "<group>"; };
+		6CFE316E1EF4CD10009A960E /* Example_gmath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example_gmath.cpp; sourceTree = "<group>"; };
+		6CFE316F1EF4CD10009A960E /* Example_gmath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Example_gmath.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 			children = (
 				6C5AF45F1EEEE89F00860330 /* Example_direction.cpp */,
 				6C5AF45D1EEEE89E00860330 /* Example_direction.hpp */,
+				6CFE316E1EF4CD10009A960E /* Example_gmath.cpp */,
+				6CFE316F1EF4CD10009A960E /* Example_gmath.hpp */,
 				6C5AF3931EECAB6700860330 /* Example_Combinations.cpp */,
 				6C5AF4541EEE039700860330 /* Example_Quadratic.cpp */,
 				6C5AF4591EEEE75B00860330 /* Example_Quadratic(lib).cpp */,
@@ -167,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFE31701EF4CD10009A960E /* Example_gmath.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
