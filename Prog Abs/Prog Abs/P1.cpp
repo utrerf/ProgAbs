@@ -6,15 +6,19 @@
 //  Copyright © 2017 Francisco Utrera. All rights reserved.
 //
 
+// Testing programs for excercise 1 of the book
+
+
 #include <iostream>
 using namespace std;
 
-
-// Testing programs for excercise 1 of the book
- 
+/* Function prototype */
  
  double farenheit (double celcius);
- 
+
+/* Main Program */
+
+
  int main() {
  double i;
  cout << "This program converts temperature from celcius into farenheit" << endl;
@@ -23,32 +27,14 @@ using namespace std;
  cout << "The temperature in farenheit is: " << farenheit(i) << endl;
  return 0;
  }
- 
+
+/*
+ * Function: farenheit
+ * Usage: double f = farenheit(celcius);
+ * ------------------------------------
+ * This function coverts the temperature from celcius to farenheit
+ */
+
  double farenheit (double celcius){
  return ((9.0 / 5.0 * celcius) + 32);
  }
- 
- Testing programs for question 26 of the book
- 
- int main() {
- for (int i = 1; i <= 100; i++) {
- cout << i << endl;
- }
- return 0;
- }
- 
- 
- int main() {
- for (int i = 0; i/100 < 1 ; i += 7) {
- cout << i << endl;
- }
- return 0;
- }
- 
- int main() {
- for (int i = 100; i >= 0 ; i -= 2) {
- cout << i << endl;
- }
- return 0;
- }
- 
