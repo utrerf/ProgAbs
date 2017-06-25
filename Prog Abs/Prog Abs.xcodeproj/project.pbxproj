@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CFE31821EF6FD4A009A960E /* P4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE31811EF6FD4A009A960E /* P4.cpp */; };
+		6C985CDD1F002E7600671F02 /* testing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C985CDC1F002E7600671F02 /* testing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		6C0295BC1EDC83AD000FE928 /* Example_HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Example_HelloWorld.cpp; path = "../Prog Abs/Example_HelloWorld.cpp"; sourceTree = "<group>"; };
 		6C0295C31EDC866C000FE928 /* Example_StructureExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_StructureExample.cpp; path = "../Prog Abs/Example_StructureExample.cpp"; sourceTree = "<group>"; };
 		6C0295C71EDC9170000FE928 /* Example_AddThreeNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_AddThreeNumbers.cpp; path = "../Prog Abs/Example_AddThreeNumbers.cpp"; sourceTree = "<group>"; };
+		6C4FB5A91EFAD7BD00514267 /* P5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P5.cpp; sourceTree = "<group>"; };
 		6C5AF3931EECAB6700860330 /* Example_Combinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Example_Combinations.cpp; sourceTree = "<group>"; };
 		6C5AF4541EEE039700860330 /* Example_Quadratic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example_Quadratic.cpp; sourceTree = "<group>"; };
 		6C5AF4561EEEDAF200860330 /* Example_error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example_error.cpp; sourceTree = "<group>"; };
@@ -34,6 +35,8 @@
 		6C5AF4591EEEE75B00860330 /* Example_Quadratic(lib).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Example_Quadratic(lib).cpp"; sourceTree = "<group>"; };
 		6C5AF45D1EEEE89E00860330 /* Example_direction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Example_direction.hpp; sourceTree = "<group>"; };
 		6C5AF45F1EEEE89F00860330 /* Example_direction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example_direction.cpp; sourceTree = "<group>"; };
+		6C985CDA1EFF60C000671F02 /* P6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P6.cpp; sourceTree = "<group>"; };
+		6C985CDC1F002E7600671F02 /* testing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testing.cpp; sourceTree = "<group>"; };
 		6CD02DBF1EE4515300971EE3 /* Example_AddIntegers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example_AddIntegers.cpp; path = "../Prog Abs/Example_AddIntegers.cpp"; sourceTree = "<group>"; };
 		6CD02DC31EE5A31300971EE3 /* P1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P1.cpp; path = "../Prog Abs/P1.cpp"; sourceTree = "<group>"; };
 		6CD02DC51EE5A33C00971EE3 /* P2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P2.cpp; path = "../Prog Abs/P2.cpp"; sourceTree = "<group>"; };
@@ -128,6 +131,9 @@
 				6CFE317D1EF6ED5F009A960E /* P2.cpp */,
 				6CFE317F1EF6F3CB009A960E /* P3.cpp */,
 				6CFE31811EF6FD4A009A960E /* P4.cpp */,
+				6C4FB5A91EFAD7BD00514267 /* P5.cpp */,
+				6C985CDA1EFF60C000671F02 /* P6.cpp */,
+				6C985CDC1F002E7600671F02 /* testing.cpp */,
 			);
 			path = "Chapter 2";
 			sourceTree = "<group>";
@@ -189,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFE31821EF6FD4A009A960E /* P4.cpp in Sources */,
+				6C985CDD1F002E7600671F02 /* testing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +205,7 @@
 		6C0295BE1EDC83AD000FE928 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -236,7 +242,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"/Users/francisco.utrera/Documents/StanfordCPPLib/**",
+					"/Users/francisco.utrera/Documents/StanfordCPPLib/io/**",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -247,7 +256,7 @@
 		6C0295BF1EDC83AD000FE928 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -278,7 +287,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"/Users/francisco.utrera/Documents/StanfordCPPLib/**",
+					"/Users/francisco.utrera/Documents/StanfordCPPLib/io/**",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
